@@ -1,0 +1,15 @@
+
+*.pch
+
+Intermediate/
+Intermediate/Build/SourceFileCache.bin
+Intermediate/Build/Win64/ObstacleAssaultEditor/Development/ActionHistory.bin
+Intermediate/Build/Win64/ObstacleAssaultEditor/Development/DependencyCache.bin
+Intermediate/Build/Win64/ObstacleAssaultEditor/Development/Makefile.bin
+Intermediate/Build/Win64/ObstacleAssaultEditor/Development/ObstacleAssaultEditor.uhtmanifest
+Intermediate/Build/Win64/UnrealEditor/Development/ObstacleAssault/MovingPlatform.cpp.lc.obj
+Intermediate/Build/Win64/UnrealEditor/Development/ObstacleAssault/MovingPlatform.gen.cpp.lc.obj
+Intermediate/Build/Win64/UnrealEditor/Development/ObstacleAssault/ObstacleAssault.cpp.lc.obj
+Intermediate/Build/Win64/UnrealEditor/Development/ObstacleAssault/ObstacleAssault.init.gen.cpp.lc.obj
+Intermediate/CachedAssetRegistry.bin
+Intermediate/Build/Win64/UnrealEditor/Development/ObstacleAssault/MovingPlatform.cpp.lc.obj

@@ -42,7 +42,7 @@ public:
 	float APlusBFloat = 0;
 
 	UPROPERTY(EditAnywhere)
-	FVector MyVector = FVector(1, 2, 3);
+	FVector MyVector = FVector(-14020.0,-2110.0,4056.0);
 
 	UPROPERTY(EditAnywhere)
 	float MyX = 0;
