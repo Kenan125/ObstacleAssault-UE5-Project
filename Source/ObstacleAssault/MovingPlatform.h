@@ -30,17 +30,15 @@ private:
 	UPROPERTY(EditAnywhere, Category="Moving Platform")
 	float MoveDistance = 100;
 
-
-
-	UPROPERTY(VisibleAnywhere, Category="Moving Platform")
-	float Overshoot;
 	UPROPERTY(EditAnywhere, Category="Moving Platform")
-	FString Name = GetName();
 	FVector StartLocation;
 
-	void MovePlatform(float DeltaTime);
-	void RotatePlatform(float DeltaTime);
-	
+	UPROPERTY(EditAnyWhere, Category= "Rotation")
+	FRotator RotationVelocity;
 
+	void MovePlatform(float DeltaTime) ;
+	void RotatePlatform(float DeltaTime);
+	bool ShouldPlatformReturn()const;
+	float GetDistanceMoved() const;
 
 };
